@@ -1,6 +1,7 @@
 # Vite React Project
 
-This project is built using **Vite** and **React**.
+This project is built using **Vite** and **React**. All components and layouts are created using CSS and no external UI libraries are used.
+
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
