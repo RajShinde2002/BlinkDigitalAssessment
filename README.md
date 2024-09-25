@@ -1,8 +1,37 @@
-# React + Vite
+# Vite React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using **Vite** and **React**. It serves as a template for creating a responsive web application with reusable components.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Fast development with Vite
+- Responsive design
+- Reusable React components
+- Redux for state management
+
+## Tech Stack
+**React**: v18.3.1
+**Vite**: v5.4.1
+**Redux** Toolkit: v2.2.7
+**React** Redux: v9.1.2
+
+## Installation
+
+1. Clone the repository:
+   git clone git clone https://github.com/RajShinde2002/BlinkDigitalAssessment.git
+2. Navigate into the project directory:
+   cd BlinkDigitalAssessment
+3. Install the dependencies:
+   npm install
+
+## Usage
+To start the development server, run:
+npm run dev
+This will start the Vite development server, and you can view your application in the browser at http://localhost:5173 (or the port specified in the terminal).
