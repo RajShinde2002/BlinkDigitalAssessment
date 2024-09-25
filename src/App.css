@@ -1,0 +1,361 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.main {
+  background-color: var(--primary_color);
+  border-radius: 20px;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+
+.banner-text {
+  background-color: #FEE101;
+  color: #000000;
+  border-radius: 0.8rem 0.8rem 0 0;
+  padding: 0.2rem;
+}
+
+/* Tab Component */
+
+.tab-buttons {
+  display: flex;
+  padding: 15px 0 0 15px;
+  text-align: left;
+}
+
+.tab-buttons button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #BBB2F2;
+  background-color: var(--primary_color);
+  border: none;
+  text-transform: capitalize;
+}
+
+.tab-buttons button.active {
+  color: #FFFFFF;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+
+.tab-content {
+  margin-top: 20px;
+  padding: 0 20px;
+  background-color: var(--primary-color);
+  border: none;
+  text-align: left;
+}
+
+.gradeDropdown {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 0.2rem;
+  margin-right: 0.8rem;
+}
+
+option {
+  color: #FFFFFF;
+  background-color: var(--secondary-color);
+}
+
+.board-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.board-buttons button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.4rem;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #BBB2F2;
+  font-weight: bold;
+}
+
+.board-buttons button.active {
+  background-color: var(--secondary-color);
+  color: #FFFFFF;
+}
+
+/* MonthlyCourses Component */
+
+.session-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #7469CF;
+  margin-bottom: 1rem;
+  background-color: #7469CF;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.data2 {
+  margin-right: 2rem;
+}
+
+.data3 {
+  justify-content: flex-end;
+}
+
+.monthly-course-discount {
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  background-color: #5F51C9;
+  font-weight: bold;
+  align-self: flex-start;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+
+/* DetailsBar Components */
+
+.detail-bar-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.detail-heading {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+.detail-value {
+  font-size: 2.5rem;
+  color: #FEE101;
+  font-weight: bold;
+}
+
+/* Syllabus Component */
+.syllabus-container {
+  display: flex;
+  gap: 10%;
+  margin-top: 1rem;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.syllabus-column {
+  margin-right: 2rem;
+}
+
+.syllabus-topic {
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+/* Footer */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.6rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--secondary-color);
+  margin-bottom: 1rem;
+  background-color: var(--secondary-color);
+  color: #FFFFFF;
+}
+
+.footer-discount {
+  align-self: flex-start;
+  color: var(--secondary-color);
+  background-color: #FFFFFF;
+  padding: 0 0.2rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.footer-top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-vacant-seats {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.book-now {
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  padding: 1rem;
+  border-radius: 25px;
+  background-color: #FEE101;
+}
+
+button a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.footer-monthly {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tAndC {
+  font-size: 0.8rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 0;
+  }
+
+  .dNone {
+    display: none;
+  }
+
+  .banner {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .banner-text {
+    font-size: 0.7rem;
+  }
+
+  .detail-heading {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .detail-bar-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .detail-value {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .board-buttons {
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .syllabus-container {
+    display: block;
+    text-align: center;
+    gap: 0;
+  }
+
+  .syllabus-column {
+    margin-right: 0.5rem;
+  }
+
+  .syllabus-topic {
+    font-size: 0.8rem;
+  }
+
+  .tab-buttons {
+    justify-content: center;
+  }
+
+  .tab-buttons button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .detail-bar-container {
+    margin-top: 1rem;
+  }
+
+  .footer-top-row {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .footer-bottom-row {
+    flex-direction: column;
+  }
+
+  .book-now {
+    padding: 0.6rem 1rem;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .footer-vacant-seats {
+    font-size: 1.4rem;
+  }
+
+  .tAndC {
+    text-align: right;
+    margin-top: 1rem;
+  }
+
+  .session-container {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .session-data {
+    width: 100%;
+  }
+
+  .data2 {
+    margin-right: 0;
+  }
+
+  .data2,
+  .data3 {
+    margin-left: 68px;
+  }
+
+  .footer-monthly {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+}
