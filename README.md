@@ -1,14 +1,11 @@
 # Vite React Project
 
-This project is built using **Vite** and **React**. It serves as a template for creating a responsive web application with reusable components.
-
+This project is built using **Vite** and **React**.
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Fast development with Vite
